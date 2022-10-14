@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'PressStart';
+    src: url('PressStart2P-Regular.ttf');
+}
+
+AnchorPane {
+    -fx-font-family: PressStart;
+    -fx-pref-width: 1024px;
+    -fx-pref-height: 768px;
+}

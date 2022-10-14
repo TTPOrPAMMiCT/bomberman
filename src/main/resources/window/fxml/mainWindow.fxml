@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?imbort style.style.css ?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane stylesheets="@style/style.css" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="su.ttporpammict.bomberman.gui.controllers.MainWindowController">
+
+
+</AnchorPane>
