@@ -18,8 +18,7 @@ public class BombermanApplication extends Application {
     }
 
     @Override
-    public void start(Stage primaryStage) throws Exception {
-        MainWindowController mainWindowController = new MainWindowController();
-        mainWindowController.createWindow(primaryStage);
+    public void start(Stage primaryStage) {
+        new MainWindowController(primaryStage);
     }
 }

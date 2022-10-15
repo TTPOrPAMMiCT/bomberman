@@ -9,5 +9,7 @@ import javax.annotation.PostConstruct;
 @Controller
 public interface SpringController {
     @PostConstruct
-    void createWindow(Stage stage);
+    void createWindow();
+    @PostConstruct
+    void propertyWindow();
 }
